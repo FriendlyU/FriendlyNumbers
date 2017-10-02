@@ -18,31 +18,23 @@ extension Int {
     }
     
     public var simpleFriendlyDigits: Int {
-        
         if self < 1000000 {
-            
             if self / 1000 == 0 {
                 return self % 1000
             } else {
                 return self / 1000
             }
-            
         } else {
-            
             if self / 1000000 == 0 {
                 return self % 1000000
             } else {
                 return self / 1000000
             }
-            
         }
-        
     }
     
     public var FNSimple: String {
-        
         let number: String
-        
         if self > 10000000 && self % 1000 == 0 {
             number = String(self.friendlyDigits)
             return "\(number)\(self.valueLetter ?? "")"
@@ -53,14 +45,10 @@ extension Int {
             number = String(self.friendlyDigits)
             return "\(number)\(self.valueLetter ?? "")"
         }
-        
     }
     
-    
     public var friendlyDigits: Double {
-        
         let divisor: Double
-        
         if self < 1000 {
             divisor = 1.0
             return (Double(self) / divisor).roundTo(places: 1)
