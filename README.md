@@ -2,6 +2,8 @@
 
 Converts number like 1000 to 1K and 1500 to 1.5K.
 
+This representation of numbers using K (thousand), M (million), B (billion) is commonly used in banking and games universe to simplify the reading of a big number.
+
 For now, to use FriendlyNumbers just add `FriendlyNumbers.swift` to your project.
 
 # Examples
