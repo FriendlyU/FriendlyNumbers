@@ -1,14 +1,22 @@
 # FriendlyNumbers
 
-Converts number like 1000 to 1K and 1500 to 1.5K.
+Converts numbers like 1000 to 1K and 1500 to 1.5K.
 
-This representation of numbers using K (thousand), M (million), B (billion) is commonly used in banking and games universe to simplify the reading of a big number.
+This representation of numbers using K (thousand), M (million), and B (billion) is commonly used in banking and games universe to simplify the reading of a big number.
 
-For now, to use FriendlyNumbers just add `FriendlyNumbers.swift` to your project.
+## Installation
 
-# Examples
+FriendlyNumbers is available through [CocoaPods](http://cocoapods.org). 
 
+To install it, simply add the following line to your Podfile:
+
+```ruby
+pod 'FriendlyNumbers'
 ```
+
+## Examples
+
+```swift
 let number = 1530
 print(number.FNMostSimple) // prints 1K
 
