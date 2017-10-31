@@ -18,9 +18,7 @@ pod 'FriendlyNumbers'
 
 There are two different features available. `FNSimple` and `FNMostSimple`. Both can be used directly onto an integer.
 
-```ruby
-pod 'FriendlyNumbers'
-```
+`FNSimple` rounds numbers to the nearest tenths place whereas `FNMostSimple` rounds numbers to the nearest whole number.
 
 ## Examples
 
