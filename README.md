@@ -14,6 +14,14 @@ To install it, simply add the following line to your Podfile:
 pod 'FriendlyNumbers'
 ```
 
+## Usage
+
+There are two different features available. `FNSimple` and `FNMostSimple`. Both can be used directly onto an integer.
+
+```ruby
+pod 'FriendlyNumbers'
+```
+
 ## Examples
 
 ```swift
